@@ -82,9 +82,9 @@ class AndroidVideoView(Widget):
             self.videoview.seekTo(ms)
 
     @run_on_ui_thread
-        def close_1(self):
-            if self.videoview:
-                self.videoview.finish()
+    def close_1(self):
+        if self.videoview:
+            self.videoview.finish()
 
 
 
